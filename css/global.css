@@ -36,3 +36,12 @@
     resize: none;
     border-radius: 0.5px;
 }
+#name{
+    outline: none;
+}
+#email{
+    outline: none;
+}
+#message{
+    outline: none;
+}

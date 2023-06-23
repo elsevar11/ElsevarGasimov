@@ -97,6 +97,14 @@ img{
     display: flex;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+    justify-content: center; /* Added to horizontally center the social media items */
+    align-items: center;
+}
+.socialmedias .socialmedia .social-media-info {
+    flex: 1; /* Added to allow the content to expand and fill the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Added to horizontally center the content */
 }
 .socialmedias .socialmedia .socialmedia-img{
     margin-right: 0.5rem;
@@ -132,6 +140,7 @@ img{
     font-size: 0.8rem;
     margin-bottom: 0.25rem;
     opacity: 0.6;
+  
 }
 .submit{
     margin-top: 1.25rem;
